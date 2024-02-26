@@ -1,0 +1,9 @@
+.profile-info {
+    @apply flex ml-[30px]
+}
+.avatarBox {
+    @apply w-[300px] h-[300px] rounded-full mt-[50px] shrink-0;
+    img {
+        @apply w-full h-full rounded-full
+    }
+}

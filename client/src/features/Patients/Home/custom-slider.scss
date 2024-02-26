@@ -1,0 +1,57 @@
+.jio-slick .slick-prev {
+  display: none !important;
+}
+.jio-slick .slick-next {
+  right: 0;
+  // trùng kích thước banner
+  left: 1100px;
+  transform: translateX(-10px);
+}
+.jio-slick .slick-arrow {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border: 2px solid #dadada;
+  color: #fff;
+  z-index: 1;
+  border-radius: 50%;
+  text-align: center;
+  z-index: 999;
+}
+
+.jio-slick .slick-arrow:before {
+  content: "\f054";
+  font-family: var(--font-awesome);
+  font-weight: 900;
+  color: #dadada;
+  font-size: 22px;
+}
+.jio-slick .slick-next:hover,
+.jio-slick .slick-next:focus {
+  color: var(--color-white);
+  outline: none;
+  background: var(--color-white);
+}
+.jio-slick .slick-arrow:not(.slick-disabled):hover {
+  border: 2px solid #4a4a4a;
+}
+
+.jio-slick .slick-arrow:not(.slick-disabled):hover:before {
+  color: #4a4a4a;
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .jio-slick .slick-next {
+    left: 850px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .jio-slick .slick-next {
+    left: 750px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .jio-slick .slick-next {
+    left: 550px;
+  }
+}

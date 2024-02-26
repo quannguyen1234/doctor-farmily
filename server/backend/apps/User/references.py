@@ -1,0 +1,21 @@
+USER_TYPE=(
+    (0,'Doctor'),
+    (1,'Patient'),
+    (2,'Admin')
+)
+GENDER=(
+    (0,"Male"),
+    (1,"Female"),
+    (2,"Other")
+)
+REVERSE_USER_TYPE={
+    'Doctor':0,
+    'Patient':1,
+    'Admin':2
+}
+RELATED_USER={
+    0:'user_doctor',
+    1:'user_patient',
+    2:'user_admin',
+}
+

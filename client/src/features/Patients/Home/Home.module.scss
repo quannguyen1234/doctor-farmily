@@ -1,0 +1,140 @@
+.container {
+  position: relative;
+  padding: 30px 0 160px 0;
+  margin-bottom: -150px;
+  &::before {
+    content: '';
+    position: absolute;
+    top: -560px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('../../../assets/images/care-service-dt-clinic.svg') no-repeat left top / 100% 100%;
+    z-index: -1;
+  }
+}
+
+h2{
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--color-dark-blue);
+  margin-bottom: 30px;
+}
+
+
+// Section Banner
+.banner {
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: hidden;
+  height: 680px;
+}
+.banner-main {
+  position: relative;
+  z-index: 2;
+  height: 680px;
+}
+.banner-slider {
+  position: absolute;
+  left: auto;
+  top: 0;
+  height: 250px;
+}
+.jio-slick {
+  margin-right: -30px;
+}
+.slider-image {
+  overflow: hidden;
+  margin-right: 30px;
+}
+.slider-image img {
+  width: 1100px;
+  height: auto;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.content {
+  position: absolute;
+  top: 66%;
+  transform: translateY(-50%);
+  left: auto;
+  padding: 60px 25px 60px 0;
+  background: linear-gradient(89.82deg, #fff -2.32%, rgba(255, 255, 255, 0.83) 102.62%);
+  border-radius: 0 30px 30px 0;
+  z-index: 2;
+  width: 500px;
+  padding-left: 10px;
+}
+.heart-icon {
+  position: absolute;
+  left: -39px;
+  top: -39px;
+}
+.clinic-icon {
+  position: absolute;
+  right: -50px;
+  top: 60px;
+}
+.title {
+  line-height: 50px;
+  font-size: 42px;
+  background: linear-gradient(272.22deg, #280198 24.78%, #8c3d6d 93.1%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+.action {
+  display: flex;
+}
+.btn-banner {
+  position: relative;
+   color: black;
+  font-weight: bold;
+  &::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 5px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    border-radius: 100px;
+    z-index: -1;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.15;
+    border-radius: 100px;
+    z-index: -2;
+  }
+}
+.btn-booking {
+  background: linear-gradient(271.41deg, #3300c4 11.44%, #d68397 93%);
+  margin-right: 20px;
+  color: black;
+  font-weight: bold;
+  &::before {
+    background: linear-gradient(271.41deg, #3300c4 11.44%, #d68397 93%);
+  }
+  &::after {
+    background: linear-gradient(271.41deg, #3300c4 11.44%, #d68397 93%);
+  }
+}
+.btn-learn-more {
+  background: linear-gradient(90.16deg, #70d6c3 4.64%, #1b85e7 90.12%);
+  &::before {
+    background: linear-gradient(90.16deg, #70d6c3 4.64%, #1b85e7 90.12%);
+  }
+  &::after {
+    background: linear-gradient(90.16deg, #70d6c3 4.64%, #1b85e7 90.12%);
+  }
+}

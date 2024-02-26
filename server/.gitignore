@@ -1,0 +1,8 @@
+/data
+/env
+*.ipynb 
+__pycache__
+*.sqlite3
+*.html
+/redis/*
+/reids
